@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // DON'T REMOVE THIS!!!
+    // If these options aren't defined here,
+    // the observers/observables don't work.
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "typeRoots": ["../../node_modules/@types", "typings"],
+    "types": ["react", "react-native", "node"],
+    "skipLibCheck": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src"]
+}
